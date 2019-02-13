@@ -15,6 +15,10 @@ function cuarta() {
   var num = document.getElementById("n2");
   num.value = Math.pow(num.value, 4);
 }
+function cuadrado() {
+  var num = document.getElementById("n4");
+  num.value = Math.pow(num.value, 2);
+}
 
 </script>
 </head>
@@ -26,6 +30,7 @@ function cuarta() {
     <button onclick="cube()"> x^3 </button>
   </p>
   Number:
+<<<<<<< d5f048e16df7c778efc2e81f6637a059de833a57
  <input type="text" id="n3">
   <p> 
     <button onclick="seno()"> sin(x) </button> 
@@ -34,6 +39,11 @@ function cuarta() {
   <input type="text" id="n2">
   <p>
     <button onclick="cuarta()"> x^4 </button>
+  </p>
+ Number:
+  <input type="text" id="n4">
+  <p>
+    <button onclick="cuadrado()"> x^2 </button>
   </p>
 </body>
 </html>
